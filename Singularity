@@ -29,8 +29,9 @@ pip install tensorflow
 pip install keras
 pip install setuptools wheel Pillow scikit-learn pandas matplotlib==2.2.2 notebook ipython tqdm
 pip install h5py
-pip install nltk
 pip install gensim
+pip install nltk
+python -m nltk.downloader all
 
 ###
 ### destination for NIH HPC bind mounts
